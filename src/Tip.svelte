@@ -1,4 +1,3 @@
-<!-- Footer -->
 <div>
 	<span>Tip</span>Edit the Markdown in
 	<code>src/stories/Introduction.stories.mdx</code>

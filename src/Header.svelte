@@ -1,4 +1,3 @@
-<!-- Header -->
 <h1>Welcome to Storybook</h1>
 <p>
 	Storybook helps you build UI components in isolation from your app's business logic, data, and context.
