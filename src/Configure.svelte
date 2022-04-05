@@ -4,7 +4,13 @@ import LinkItem from './LinkItem.svelte';
 <div class="subheading">Configure</div>
 
 <div class="link-list">
-	<LinkItem src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/stackalt.svg" />
+	<LinkItem
+		href="https://storybook.js.org/docs/react/addons/addon-types"
+		src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/stackalt.svg"
+		alt="plugin"
+		title="Presets for popular tools"
+		desc="Easy setup for TypeScript, SCSS and more."
+	/>
 	<LinkItem />
 	<LinkItem />
 	<LinkItem />
