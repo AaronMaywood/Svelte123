@@ -1,10 +1,12 @@
 <script>
     import Header from './Header.svelte';
+    import Configure from './Configure.svelte';
     import Tip from './Tip.svelte';
 </script>
 
 <div class="sbdocs-wrapper">
 	<Header />
+	<Configure />
 	<Tip />
 </div>
 
