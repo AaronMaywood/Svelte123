@@ -1,34 +1,13 @@
+<script>
+import LinkItem from './LinkItem.svelte';
+</script>
 <div class="subheading">Configure</div>
 
 <div class="link-list">
-  <a class="link-item" href="https://storybook.js.org/docs/react/addons/addon-types" target="_blank" >
-	<img src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/plugin.svg" alt="plugin" />
-	<span>
-	  <strong>Presets for popular tools</strong>
-	  Easy setup for TypeScript, SCSS and more.
-	</span>
-  </a>
-  <a class="link-item" href="https://storybook.js.org/docs/react/configure/webpack" target="_blank" >
-	<img src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/stackalt.svg" alt="Build" />
-	<span>
-	  <strong>Build configuration</strong>
-	  How to customize webpack and Babel
-	</span>
-  </a>
-  <a class="link-item" href="https://storybook.js.org/docs/react/configure/styling-and-css" target="_blank" >
-	<img src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/colors.svg" alt="colors" />
-	<span>
-	  <strong>Styling</strong>
-	  How to load and configure CSS libraries
-	</span>
-  </a>
-  <a class="link-item" href="https://storybook.js.org/docs/react/get-started/setup#configure-storybook-for-your-stack" target="_blank" >
-	<img src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/flow.svg" alt="flow" />
-	<span>
-	  <strong>Data</strong>
-	  Providers and mocking for data libraries
-	</span>
-  </a>
+	<LinkItem />
+	<LinkItem />
+	<LinkItem />
+	<LinkItem />
 </div>
 
 <style>
@@ -65,45 +44,5 @@
 		-ms-grid-columns: 1fr 1fr;
 		-ms-grid-rows: 1fr 1fr;
 	}
-}
-
-.link-item {
-	display: block;
-	padding: 20px 30px 20px 15px;
-	border: 1px solid #00000010;
-	border-radius: 5px;
-	transition: background 150ms ease-out, border 150ms ease-out, transform 150ms ease-out;
-	color: #333333;
-	display: flex;
-	align-items: flex-start;
-}
-
-.link-item:hover {
-	border-color: #1EA7FD50;
-	transform: translate3d(0, -3px, 0);
-	box-shadow: rgba(0, 0, 0, 0.08) 0 3px 10px 0;
-}
-
-.link-item:active {
-	border-color: #1EA7FD;
-	transform: translate3d(0, 0, 0);
-}
-
-.link-item strong {
-	font-weight: 700;
-	display: block;
-	margin-bottom: 2px;
-}
-
-.link-item img {
-	height: 40px;
-	width: 40px;
-	margin-right: 15px;
-	flex: none;
-}
-
-.link-item span {
-	font-size: 14px;
-	line-height: 20px;
 }
 </style>
