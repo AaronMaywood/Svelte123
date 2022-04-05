@@ -1,10 +1,13 @@
-  <a class="link-item" href="https://storybook.js.org/docs/react/addons/addon-types" target="_blank" >
-	<img src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/plugin.svg" alt="plugin" />
+<script>
+export let src = "https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/plugin.svg";
+</script>
+<a class="link-item" href="https://storybook.js.org/docs/react/addons/addon-types" target="_blank" >
+	<img {src} alt="plugin" />
 	<span>
 	  <strong>Presets for popular tools</strong>
 	  Easy setup for TypeScript, SCSS and more.
 	</span>
-  </a>
+</a>
 
 <style>
 .link-item {

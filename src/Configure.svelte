@@ -4,7 +4,7 @@ import LinkItem from './LinkItem.svelte';
 <div class="subheading">Configure</div>
 
 <div class="link-list">
-	<LinkItem />
+	<LinkItem src="https://raw.githubusercontent.com/storybookjs/storybook/next/examples/vue-3-cli/src/stories/assets/stackalt.svg" />
 	<LinkItem />
 	<LinkItem />
 	<LinkItem />
