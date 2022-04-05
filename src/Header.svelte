@@ -12,3 +12,10 @@
 	process starting with atomic components and ending with pages.  
 </p>
 
+<style>
+h1 {
+	color: #333333;
+	font-size: 32px;
+	font-weight: 900;
+}
+</style>
