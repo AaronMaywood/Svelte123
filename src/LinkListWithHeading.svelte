@@ -9,12 +9,12 @@ export let items;		// LinkItem 用の埋め込み情報
 <div class="link-list">
 	{#each items as i}
 		<LinkItem {...i} />
-    {/each}
+	{/each}
     <!--
     上は次の短略形です。
 	{#each items as { href, src, alt, title, desc }}
 		<LinkItem {href} {src} {alt} {title} {desc} />
-    {/each}
+	{/each}
     -->
 </div>
 
