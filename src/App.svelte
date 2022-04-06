@@ -1,14 +1,14 @@
 <script>
     import Header from './Header.svelte';
     import Configure from './Configure.svelte';
-    import LinkListWithHeading from './LinkListWithHeading.svelte';
+    import Learn from './Learn.svelte';
     import Tip from './Tip.svelte';
 </script>
 
 <div class="sbdocs-wrapper">
 	<Header />
 	<Configure />
-	<LinkListWithHeading />
+	<Learn />
 	<Tip />
 </div>
 
