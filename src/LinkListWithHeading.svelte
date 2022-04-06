@@ -1,7 +1,7 @@
 <script>
 import LinkItem from './LinkItem.svelte';
 export let heading;
-export let items;		// LinkItem 用の埋め込み情報
+export let items;
 </script>
 
 <div class="subheading">{heading}</div>
@@ -10,12 +10,6 @@ export let items;		// LinkItem 用の埋め込み情報
 	{#each items as i}
 		<LinkItem {...i} />
 	{/each}
-    <!--
-    上は次の短略形です。
-	{#each items as { href, src, alt, title, desc }}
-		<LinkItem {href} {src} {alt} {title} {desc} />
-	{/each}
-    -->
 </div>
 
 <style>
