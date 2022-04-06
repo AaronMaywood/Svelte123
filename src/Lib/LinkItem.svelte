@@ -14,7 +14,7 @@ export let desc;
 </a>
 
 <style>
-.link-item {
+a {
 	display: block;
 	padding: 20px 30px 20px 15px;
 	border: 1px solid #00000010;
@@ -25,31 +25,31 @@ export let desc;
 	align-items: flex-start;
 }
 
-.link-item:hover {
+a:hover {
 	border-color: #1EA7FD50;
 	transform: translate3d(0, -3px, 0);
 	box-shadow: rgba(0, 0, 0, 0.08) 0 3px 10px 0;
 }
 
-.link-item:active {
+a:active {
 	border-color: #1EA7FD;
 	transform: translate3d(0, 0, 0);
 }
 
-.link-item strong {
+a strong {
 	font-weight: 700;
 	display: block;
 	margin-bottom: 2px;
 }
 
-.link-item img {
+a img {
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
 	flex: none;
 }
 
-.link-item span {
+a span {
 	font-size: 14px;
 	line-height: 20px;
 }
