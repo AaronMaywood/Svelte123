@@ -1,15 +1,19 @@
 <script>
 import LinkItem from './LinkItem.svelte';
 export let heading;
+
+// LinkItem 用の埋め込み情報
+export let href;
+export let src;
+export let alt;
+export let title;
+export let desc;
 </script>
 
 <div class="subheading">{heading}</div>
 
 <div class="link-list">
-	<LinkItem />
-	<LinkItem />
-	<LinkItem />
-	<LinkItem />
+	<LinkItem {href} {src} {alt} {title} {desc} />
 </div>
 
 <style>
