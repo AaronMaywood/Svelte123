@@ -5,7 +5,7 @@ export let alt = "";
 export let title;
 export let desc;
 </script>
-<a class="link-item" {href} target="_blank" >
+<a {href} target="_blank" >
 	<img {src} {alt} />
 	<span>
 	  <strong>{title}</strong>
