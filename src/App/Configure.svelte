@@ -1,5 +1,5 @@
 <script>
-import LinkListWithHeading from './LinkListWithHeading.svelte';
+import LinkListWithHeading from '../Lib/LinkListWithHeading.svelte';
 const items = [
 	{
 		href:"https://storybook.js.org/docs/react/addons/addon-types",

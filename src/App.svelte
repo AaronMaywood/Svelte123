@@ -1,8 +1,8 @@
 <script>
-    import Header from './Header.svelte';
-    import Configure from './Configure.svelte';
-    import Learn from './Learn.svelte';
-    import Tip from './Tip.svelte';
+    import Header from './App/Header.svelte';
+    import Configure from './App/Configure.svelte';
+    import Learn from './App/Learn.svelte';
+    import Tip from './App/Tip.svelte';
 </script>
 
 <div class="sbdocs-wrapper">
